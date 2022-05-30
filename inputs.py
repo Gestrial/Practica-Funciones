@@ -1,5 +1,5 @@
 def salario():
-    salario = float(input("Ingresa tu salario: "))
+    salario = float(input("Ingresa tu salario percibido mas alto hasta la fecha: "))
     return salario
 
 def cantMeses():
