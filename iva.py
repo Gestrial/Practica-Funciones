@@ -4,7 +4,7 @@ from inputs import country, facturaTotal
 alicuotas = {'argentina' : 21,'chile' : 19,'brasil' : 17,'peru' : 18,
 'uruguay' : 22,'dominicana' : 18,'mexico' : 16,'colombia' : 16,
 'honduras' : 15,'nicaragua' : 15,'bolivia' : 13,
-'costarica' : 13,'elsalvador' : 13,'ecuador' : 12,
+'costarica' : 13,'salvador' : 13,'ecuador' : 12,
 'guatemala' : 12,'venezuela' : 12,'puertorico' : 11.5,
 'paraguay' : 10,'panama' : 7}
 

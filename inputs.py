@@ -15,8 +15,13 @@ def antiguedad():
     return antiguedad2
 
 def choose():
-    opcion = int(input("Elija que desea calcular segun su numero: \n1)AGUINALDO\n2)IVA\n3)PRESENTISMO\n"))
-    return opcion
+    while True:
+        opcion = int(input("Elija que desea calcular segun su numero: \n1)AGUINALDO\n2)IVA\n3)PRESENTISMO\n"))
+        if opcion == 1 or opcion == 2 or opcion == 3:
+            return opcion
+        else:
+            print("Ingrese una opcion correcta porfavor.")
+            
 
 def facturaTotal():
     total = float(input("Ingresa el monto total de tu factura: "))
@@ -27,5 +32,10 @@ def country():
     return f
 
 def pregunta():
-    a = input("Desea calcular algo mas ? S/N ")
-    return a
+    while True:
+        a = input("Desea calcular algo mas ? S/N ")
+        if a.upper() == "S" or a.upper() == "N":
+            return a.upper()
+        else:
+            print("Ingresa una opcion correcta.")
+            continue
