@@ -1,7 +1,4 @@
-
-
-
-from inputs import choose
+from inputs import choose, pregunta
 
 def main():
     while True:
@@ -16,7 +13,7 @@ def main():
             from presentismo import presentismo
             presentismo()
 
-        opcion3 = input("Desea calcular algo mas ? S/N ")
+        opcion3 = pregunta()
         if opcion3 == "N":
             print("Hasta la proxima.")
             break

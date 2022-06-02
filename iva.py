@@ -1,4 +1,5 @@
 from function import calcularIva
+from inputs import country, facturaTotal
 
 alicuotas = {'argentina' : 21,'chile' : 19,'brasil' : 17,'peru' : 18,
 'uruguay' : 22,'dominicana' : 18,'mexico' : 16,'colombia' : 16,
@@ -11,13 +12,13 @@ def ivaLatinoamericano():
     print("------------------")
     print("-------IVA--------")
     print("------------------")
-    totalFactura = float(input("Ingresa el total de tu factura: "))
+    totalFactura = facturaTotal()
     while True:
-        pais = input("Ingresa un pais de latinoamerica: ")
+        pais = country()
         if pais.lower() not in alicuotas:
             print("Pais invalido")
             continue
         totalIva = calcularIva(totalFactura,alicuotas[pais.lower()])
-        print(f"El iva de la factura {totalFactura} es: {totalIva} ")
+        print(f"La factura con el monto {totalFactura} tiene un iva de: {totalIva} ")
         return totalIva
 

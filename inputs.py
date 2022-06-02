@@ -7,7 +7,7 @@ def cantMeses():
     return cantMeses
 
 def sueldoBasico():
-    sueldobasico3 = float(input("Ingresa el total de tu sueldo basico: "))
+    sueldobasico3 = float(input("Ingresa el monto total de tu sueldo basico: "))
     return sueldobasico3
 
 def antiguedad():
@@ -18,3 +18,14 @@ def choose():
     opcion = int(input("Elija que desea calcular segun su numero: \n1)AGUINALDO\n2)IVA\n3)PRESENTISMO\n"))
     return opcion
 
+def facturaTotal():
+    total = float(input("Ingresa el monto total de tu factura: "))
+    return total
+
+def country():
+    f = input("Ingresa un pais de latinoamerica: ")
+    return f
+
+def pregunta():
+    a = input("Desea calcular algo mas ? S/N ")
+    return a

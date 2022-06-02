@@ -9,7 +9,7 @@ def presentismo():
             totalAntiguedad = antiguedades(sueldoBasico2,antiguedad2)
             sueldoAntiguedad = sueldoBasico2 + totalAntiguedad
             totalPresentismo = presentismo2(sueldoAntiguedad)
-            print(f"Su presentismo correspondiente es de : {totalPresentismo} ")
+            print(f"El presentismo correspondiente a su sueldo basico {sueldoBasico2} es de: {totalPresentismo} ")
             return totalPresentismo
         else:
             print("Ingresa un sueldo positivo porfavor.")
