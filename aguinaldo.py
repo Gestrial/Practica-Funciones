@@ -1,6 +1,8 @@
 from function import aguinaldos
 from inputs import cantMeses, salario
 
+#EJECUTAR DESDE MAIN
+
 def aguinaldo():
     print("------------------------")
     print("-------AGUINALDO--------")

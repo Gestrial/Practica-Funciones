@@ -1,6 +1,8 @@
 from function import calcularIva
 from inputs import country, facturaTotal
 
+#EJECUTAR DESDE MAIN
+
 alicuotas = {'argentina' : 21,'chile' : 19,'brasil' : 17,'peru' : 18,
 'uruguay' : 22,'dominicana' : 18,'mexico' : 16,'colombia' : 16,
 'honduras' : 15,'nicaragua' : 15,'bolivia' : 13,

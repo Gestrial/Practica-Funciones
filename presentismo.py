@@ -1,6 +1,8 @@
 from function import antiguedades,presentismo2
 from inputs import antiguedad, sueldoBasico
 
+#EJECUTAR DESDE MAIN
+
 def presentismo():
     while True:
         sueldoBasico2 = sueldoBasico()
